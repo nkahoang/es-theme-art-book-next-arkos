@@ -157,16 +157,16 @@
    </view>
    <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="detailed">
       <image name="md_image">
-         <pos>0.75 0.322916666666667</pos><!-- 480 155 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-on">0.40625 0.520833333333333</maxSize><!-- 260 250 -->
+         <pos>0.75 0.3</pos><!-- 480 155 -->
+         <size ifSubset="gamelist-view-style:metadata-on">0.5 0.68</size><!-- 260 250 -->
          <maxSize ifSubset="gamelist-view-style:metadata-on-immersive">1 1</maxSize><!-- 480 480 -->
          <zIndex>2</zIndex>
       </image>
    </view>
    <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="video">
       <video name="md_video">
-         <pos>0.75 0.322916666666667</pos><!-- 480 155 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-on">0.40625 0.520833333333333</maxSize><!-- 260 250 -->
+         <pos>0.75 0.3</pos><!-- 480 155 -->
+         <size ifSubset="gamelist-view-style:metadata-on">0.5 0.68</size><!-- 260 250 -->
          <maxSize ifSubset="gamelist-view-style:metadata-on-immersive">1 1</maxSize><!-- 480 480 -->
          <zIndex>2</zIndex>
       </video>
@@ -174,8 +174,8 @@
 
    <view ifSubset="gamelist-view-style:metadata-off|metadata-off-immersive" name="detailed">
       <image name="md_image">
-         <pos>0.75 0.5</pos><!-- 480 240 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-off">0.40625 0.895833333333333</maxSize><!-- 260 430 -->
+         <pos>0.75 0.3</pos><!-- 480 240 -->
+         <size ifSubset="gamelist-view-style:metadata-off">0.5 0.68</size><!-- 260 430 -->
          <maxSize ifSubset="gamelist-view-style:metadata-off-immersive">1.5 1.5</maxSize>
       </image>
    </view>
@@ -185,8 +185,8 @@
          <maxSize>0.45 0.9</maxSize><!-- 230 430 -->
       </image>
       <video name="md_video">
-         <pos>0.75 0.5</pos><!-- 480 240 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-off">0.40625 0.895833333333333</maxSize><!-- 260 430 -->
+         <pos>0.75 0.3</pos><!-- 480 240 -->
+         <size ifSubset="gamelist-view-style:metadata-off">0.5 0.68</size><!-- 260 430 -->
          <maxSize ifSubset="gamelist-view-style:metadata-off-immersive">1.5 1.5</maxSize>
       </video>
    </view>
