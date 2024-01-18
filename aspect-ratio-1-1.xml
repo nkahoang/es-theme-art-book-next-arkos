@@ -1,0 +1,202 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>./help-system.xml</include>
+   <view name="screen">
+      <batteryIndicator name="batteryIndicator">
+         <pos>0.0325 0.03125</pos><!-- 0 15 -->
+         <size>0.978125 0.05</size><!-- 626 32 -->
+      </batteryIndicator>
+      <text name="clock">
+         <pos>0.5775 0.03125</pos>
+         <size>0.4 0.05</size>
+         <textColor>eeeeee77</textColor>
+         <fontSize>0.03</fontSize>
+         <alignment>right</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <color>ffffff</color>
+      </text>
+      <helpsystem name="help">
+         <z-index>55</z-index>
+         <textColor>eeeeee</textColor>
+         <iconColor>eeeeee</iconColor>
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </helpsystem>
+   </view>
+
+   <view name="system,basic,detailed,video">s
+      <helpsystem name="help">
+         <textColor>eeeeee</textColor>
+         <iconColor>eeeeee</iconColor>
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </helpsystem>
+   </view>
+
+   <view name="system">
+      <text name="logoText">
+         <fontSize>0.0875</fontSize><!-- 42 -->
+      </text>
+      <carousel name="systemcarousel">
+         <logoScale>1</logoScale>
+         <logoSize>0.7 0.5</logoSize>
+         <maxLogoCount>1</maxLogoCount>
+      </carousel>
+      <carousel name="systemcarousel">
+         <logoSize>1.025 1.025</logoSize>
+         <maxLogoCount>3</maxLogoCount>
+      </carousel>
+      <image name="system-art" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <maxSize>0.7 0.5</maxSize>
+         <color>${systemLogoColor}</color>
+         <path>./_inc/systems/${system.theme}.svg</path>
+         <zIndex>50</zIndex>
+      </image>
+      <image ifSubset="system-view-style:fullscreen-custom" name="system-art" extra="true">
+         <size>0 1</size>
+      </image>
+      <image name="syslogo" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <maxSize>0.7 0.5</maxSize>
+         <color>${systemLogoColor}</color>
+         <path>./_inc/systems/_default.png</path>
+         <path>./_inc/systems/${system.theme}.svg</path>
+      </image>
+      <text name="systemInfo">
+         <zIndex>44</zIndex>       
+         <pos>0.0 0.91125</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>ffffff</color>
+         <fontPath>./assets/fonts/GROBOLD.ttf</fontPath>
+	     <fontSize>0.03</fontSize>
+         <zIndex>44</zIndex>	     
+      </text>     
+      <helpsystem name="help">
+         <textColor>eeeeee</textColor>
+         <iconColor>eeeeee</iconColor>
+         <z-index>55</z-index>
+      </helpsystem>
+   </view>
+
+   <view name="basic,detailed,video">
+      <image name="logo">
+         <maxSize>0.359375 0.104166666666667</maxSize><!-- 230 50 -->
+      </image>
+      <text name="logoText">
+         <size>0.359375 0.104166666666667</size><!-- 230 50 -->
+         <fontSize>0.05</fontSize>
+      </text>
+      <textlist name="gamelist">
+         <fontSize>0.032</fontSize><!-- 19 -->
+         <lineSpacing>1.5125</lineSpacing>
+      </textlist>
+   </view>
+
+   <view name="basic">
+      <image name="logo">
+         <pos>0.5 0.11875</pos><!-- 50% 55 -->
+      </image>
+      <text name="logoText">
+         <pos>0.5 0.11875</pos><!-- 50% 55 -->
+      </text>
+      <textlist name="gamelist">
+         <pos>0.5 0.229166666666667</pos><!-- 50% 110 -->
+         <size>0.84375 0.725</size><!-- 540 348 -->
+      </textlist>
+   </view>
+
+   <view name="detailed,video">
+      <image name="logo">
+         <pos>0.25 0.11875</pos><!-- 160 55 -->
+      </image>
+      <text name="logoText">
+         <pos>0.25 0.11875</pos><!-- 160 55 -->
+      </text>
+      <textlist name="gamelist">
+         <origin>0 0</origin>
+         <pos>0.0546875 0.229166666666667</pos><!-- 35 110 -->
+         <size>0.375 0.725</size><!-- 240 348 -->
+      </textlist>
+      <image name="gamelist-background" extra="true">
+         <size>0.5 1</size><!-- 320 480 -->
+      </image>
+   </view>
+
+   <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="detailed,video">
+      <rating name="md_rating">
+         <origin>0 0.5</origin>
+         <pos>0.546875 0.725</pos><!-- 350 348 -->
+         <size>0 0.041666666666667</size><!-- x 20 -->
+      </rating>
+      <image name="md_releasedate_icon">
+         <origin>0 0.5</origin>
+         <pos>0.802777777777778 0.71875</pos><!-- 470 345 -->
+         <size>0.027777777777778 0.041666666666667</size><!-- 20 20 -->
+      </image>
+      <datetime name="md_releasedate">
+         <origin>0 0.5</origin>
+         <pos>0.844444444444444 0.71875</pos><!-- 500 345 -->
+         <size>0.166666666666667 0.041666666666667</size><!-- 120 20 -->
+         <fontSize>0.019166666666667</fontSize><!-- 14 -->
+         <alignment>left</alignment>
+      </datetime>
+      <image name="md_players_icon">
+         <pos>0.804166666666667 0.754166666666667</pos><!-- 1640 1001 -->
+         <maxSize>0.020833333333333 0.033333333333333</maxSize><!-- 40 40 -->
+      </image>
+      <text name="md_players">
+         <pos>0.844375 0.754166666666667</pos><!-- 1698 1001 -->
+         <fontSize>0.023333333333333</fontSize><!-- 28 -->
+      </text>
+      <text name="md_description">
+         <pos>0.546875 0.791666666666667</pos><!-- 350 380 -->
+         <size>0.40625 0.158333333333333</size><!-- 260 78 -->
+         <fontSize>0.033333333333333</fontSize><!-- 16 -->
+         <lineSpacing>1.22</lineSpacing>
+      </text>
+      <image name="game-metadata-background" extra="true">
+         <origin>0 1</origin>
+         <pos>0.5 1</pos><!-- 320 0 -->
+         <size>0.5 0.354166666666667</size><!-- 320 170-->
+         <zIndex>3</zIndex>
+      </image>
+   </view>
+   <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="detailed">
+      <image name="md_image">
+         <pos>0.75 0.322916666666667</pos><!-- 480 155 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-on">0.40625 0.520833333333333</maxSize><!-- 260 250 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-on-immersive">1 1</maxSize><!-- 480 480 -->
+         <zIndex>2</zIndex>
+      </image>
+   </view>
+   <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="video">
+      <video name="md_video">
+         <pos>0.75 0.322916666666667</pos><!-- 480 155 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-on">0.40625 0.520833333333333</maxSize><!-- 260 250 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-on-immersive">1 1</maxSize><!-- 480 480 -->
+         <zIndex>2</zIndex>
+      </video>
+   </view>
+
+   <view ifSubset="gamelist-view-style:metadata-off|metadata-off-immersive" name="detailed">
+      <image name="md_image">
+         <pos>0.75 0.5</pos><!-- 480 240 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-off">0.40625 0.895833333333333</maxSize><!-- 260 430 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-off-immersive">1.5 1.5</maxSize>
+      </image>
+   </view>
+   <view ifSubset="gamelist-view-style:metadata-off|metadata-off-immersive" name="video">
+      <image ifSubset="gamelist-view-style:metadata-off-immersive" name="md_marquee">
+         <pos>0.75 0.5</pos><!-- 480 240 -->
+         <maxSize>0.4 0.9</maxSize><!-- 230 430 -->
+      </image>
+      <video name="md_video">
+         <pos>0.75 0.5</pos><!-- 480 240 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-off">0.40625 0.895833333333333</maxSize><!-- 260 430 -->
+         <maxSize ifSubset="gamelist-view-style:metadata-off-immersive">1.5 1.5</maxSize>
+      </video>
+   </view>
+</theme>
