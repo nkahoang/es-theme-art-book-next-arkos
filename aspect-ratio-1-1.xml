@@ -181,8 +181,8 @@
    </view>
    <view ifSubset="gamelist-view-style:metadata-off|metadata-off-immersive" name="video">
       <image ifSubset="gamelist-view-style:metadata-off-immersive" name="md_marquee">
-         <pos>0.75 0.5</pos><!-- 480 240 -->
-         <maxSize>0.4 0.9</maxSize><!-- 230 430 -->
+         <pos>0.975 0.425</pos><!-- 480 240 -->
+         <maxSize>0.45 0.9</maxSize><!-- 230 430 -->
       </image>
       <video name="md_video">
          <pos>0.75 0.5</pos><!-- 480 240 -->
