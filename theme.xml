@@ -85,7 +85,7 @@ license:       creative commons CC-BY-NC-SA
       </text>
       <batteryIndicator name="batteryIndicator">
          <color>${statusBarIconColor}</color>
-         <itemSpacing>2</itemSpacing>
+         <itemSpacing>0</itemSpacing>
          <full>./_inc/images/battery-100-vertical.svg</full>
          <at75>./_inc/images/battery-75-vertical.svg</at75>
          <at50>./_inc/images/battery-50-vertical.svg</at50>
@@ -413,7 +413,8 @@ license:       creative commons CC-BY-NC-SA
          <active>./_inc/images/menu-textinput-active.png</active>
       </menuTextEdit>
       <menuBackground name="menubg">
-         <color>${menuBackgroundColor}</color>
+         <color>111111</color>
+         <size>1 1</size>
          <cornerSize>20 20</cornerSize>
       </menuBackground>
       <menuIcons name="menuicons">
