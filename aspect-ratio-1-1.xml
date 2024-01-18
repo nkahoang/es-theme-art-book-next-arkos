@@ -46,14 +46,6 @@
          <logoSize>1.025 1.025</logoSize>
          <maxLogoCount>3</maxLogoCount>
       </carousel>
-      <image name="system-art" extra="true">
-         <origin>0.5 0.5</origin>
-         <pos>0.5 0.5</pos>
-         <maxSize>0.7 0.5</maxSize>
-         <color>${systemLogoColor}</color>
-         <path>./_inc/systems/${system.theme}.svg</path>
-         <zIndex>50</zIndex>
-      </image>
       <image ifSubset="system-view-style:fullscreen-custom" name="system-art" extra="true">
          <size>0 1</size>
       </image>
@@ -61,6 +53,7 @@
          <origin>0.5 0.5</origin>
          <pos>0.5 0.5</pos>
          <maxSize>0.7 0.5</maxSize>
+         <zIndex>50</zIndex>
          <color>${systemLogoColor}</color>
          <path>./_inc/systems/_default.png</path>
          <path>./_inc/systems/${system.theme}.svg</path>
