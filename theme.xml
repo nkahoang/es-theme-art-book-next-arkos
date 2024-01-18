@@ -187,7 +187,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>${gamelistListTextlistBackgroundColor}</color>
+         <color>111111</color>
          <zIndex>4</zIndex>
       </image>
       <image name="background" extra="true">
@@ -270,7 +270,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>${gamelistListMetadataBackgroundColor}</color>
+         <color>888888</color>
          <zIndex>2</zIndex>
       </image>
    </view>
