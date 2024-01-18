@@ -62,8 +62,7 @@
          <pos>0.0 0.91125</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>ffffff</color>
-         <fontPath>./assets/fonts/GROBOLD.ttf</fontPath>
-	     <fontSize>0.03</fontSize>
+	      <fontSize>0.02</fontSize>
          <zIndex>44</zIndex>	     
       </text>     
       <helpsystem name="help">

@@ -140,6 +140,15 @@ license:       creative commons CC-BY-NC-SA
       <text name="systemInfo">
          <pos>1 1</pos>
       </text>
+      <image ifSubset="system-view-style:centered|centered-custom|centered-one-logo" name="system-art-fade" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>${systemArtFade}</color>
+         <zIndex>3</zIndex>
+      </image>
       <!-- System View Mask: Multi Artwork -->
       <image name="logo">
          <path>./_inc/systems/_default.png</path>
