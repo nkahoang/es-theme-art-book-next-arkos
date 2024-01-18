@@ -35,10 +35,8 @@ license:       creative commons CC-BY-NC-SA
       <include name="famicom" displayName="Famicom" />
       <include name="black" displayName="Black" />
       <include name="grayscale" displayName="Grayscale" />
-      <include name="custom" displayName="Custom" />
    </subset>
    <include>./colors.xml</include>
-   <include ifSubset="color-scheme:custom">${themeCustomizationsPath}colors.xml</include>
 
    <!-- Fonts -->
    <subset name="fonts" displayName="Font Size">
@@ -357,8 +355,4 @@ license:       creative commons CC-BY-NC-SA
    <include ifSubset="aspect-ratio:3-2">./aspect-ratio-3-2.xml</include>
    <include ifSubset="aspect-ratio:5-3">./aspect-ratio-5-3.xml</include>
    <include ifSubset="aspect-ratio:1-1">./aspect-ratio-1-1.xml</include>
-
-   <!-- Custom Fonts -->
-   <include ifSubset="fonts:custom">${themeCustomizationsPath}fonts.xml</include>
-
 </theme>

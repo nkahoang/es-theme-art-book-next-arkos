@@ -27,17 +27,6 @@
          <pos ifSubset="aspect-ratio:5-3">0.5 0.9475</pos><!-- 50% 1137 -->
          <fontSize ifSubset="aspect-ratio:5-3">0.028333333333333</fontSize><!-- 34 -->
       </helpsystem>
-      <image name="help-background" extra="static">
-         <origin>0 1</origin>
-         <pos>0 1</pos>
-         <size>1 0.104166666666667</size><!-- 100% 125 -->
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <color>000000</color>
-         <size ifSubset="aspect-ratio:16-9">1 0.115740740740741</size><!-- 100% 125 -->
-         <size ifSubset="aspect-ratio:16-10">1 0.104166666666667</size><!-- 100% 125 -->
-         <size ifSubset="aspect-ratio:5-3">1 0.104166666666667</size><!-- 100% 125 -->
-      </image>
       <helpsystem ifHelpPrompts="false" name="help">
          <origin>0 0</origin>
          <pos>1 1</pos>
