@@ -178,6 +178,10 @@
       </image>
    </view>
    <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="video">
+      <image ifSubset="gamelist-view-style:metadata-off-immersive" name="md_marquee">
+         <pos>0.975 0.425</pos><!-- 480 240 -->
+         <maxSize>0.45 0.9</maxSize><!-- 230 430 -->
+      </image>
       <video name="md_video">
          <pos>0.75 0.35</pos><!-- 480 155 -->
          <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
