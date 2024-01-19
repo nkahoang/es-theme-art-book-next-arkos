@@ -101,10 +101,10 @@
 
    <view name="detailed,video">
       <image name="logo">
-         <pos>0.25 0.11875</pos><!-- 160 55 -->
+         <pos>0.25 0.13875</pos><!-- 160 55 -->
       </image>
       <text name="logoText">
-         <pos>0.25 0.11875</pos><!-- 160 55 -->
+         <pos>0.25 0.13875</pos><!-- 160 55 -->
       </text>
       <textlist name="gamelist">
          <origin>0 0</origin>
@@ -119,75 +119,69 @@
    <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="detailed,video">
       <rating name="md_rating">
          <origin>0 0.5</origin>
-         <pos>0.546875 0.725</pos><!-- 350 348 -->
+         <pos>0.526875 0.745</pos><!-- 350 348 -->
          <size>0 0.041666666666667</size><!-- x 20 -->
       </rating>
       <image name="md_releasedate_icon">
          <origin>0 0.5</origin>
-         <pos>0.802777777777778 0.71875</pos><!-- 470 345 -->
+         <pos>0.782777777777778 0.73875</pos><!-- 470 345 -->
          <size>0.027777777777778 0.041666666666667</size><!-- 20 20 -->
       </image>
       <datetime name="md_releasedate">
          <origin>0 0.5</origin>
-         <pos>0.844444444444444 0.71875</pos><!-- 500 345 -->
+         <pos>0.824444444444444 0.73875</pos><!-- 500 345 -->
          <size>0.166666666666667 0.041666666666667</size><!-- 120 20 -->
          <fontSize>0.019166666666667</fontSize><!-- 14 -->
          <alignment>left</alignment>
       </datetime>
       <image name="md_players_icon">
-         <pos>0.804166666666667 0.754166666666667</pos><!-- 1640 1001 -->
+         <pos>0.784166666666667 0.774166666666667</pos><!-- 1640 1001 -->
          <maxSize>0.020833333333333 0.033333333333333</maxSize><!-- 40 40 -->
       </image>
       <text name="md_players">
-         <pos>0.844375 0.754166666666667</pos><!-- 1698 1001 -->
+         <pos>0.824375 0.774166666666667</pos><!-- 1698 1001 -->
          <fontSize>0.023333333333333</fontSize><!-- 28 -->
       </text>
       <text name="md_description">
-         <pos>0.546875 0.791666666666667</pos><!-- 350 380 -->
-         <size>0.40625 0.158333333333333</size><!-- 260 78 -->
+         <pos>0.526875 0.811666666666667</pos><!-- 350 380 -->
+         <size>0.44625 0.158333333333333</size><!-- 260 78 -->
          <fontSize>0.033333333333333</fontSize><!-- 16 -->
          <lineSpacing>1.22</lineSpacing>
       </text>
       <image name="game-metadata-background" extra="true">
          <origin>0 1</origin>
          <pos>0.5 1</pos><!-- 320 0 -->
-         <size>0.5 0.354166666666667</size><!-- 320 170-->
+         <size>0.5 0.30</size><!-- 320 170-->
          <zIndex>3</zIndex>
       </image>
    </view>
    <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="detailed">
       <image name="md_image">
-         <pos>0.75 0.3</pos><!-- 480 155 -->
-         <size ifSubset="gamelist-view-style:metadata-on">0.5 0</size><!-- 260 250 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-on-immersive">1 1</maxSize><!-- 480 480 -->
+         <pos>0.75 0.35</pos><!-- 480 155 -->
+         <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
          <zIndex>2</zIndex>
       </image>
    </view>
    <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="video">
       <video name="md_video">
-         <pos>0.75 0.3</pos><!-- 480 155 -->
-         <size ifSubset="gamelist-view-style:metadata-on">0.5 0</size><!-- 260 250 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-on-immersive">1 1</maxSize><!-- 480 480 -->
+         <pos>0.75 0.35</pos><!-- 480 155 -->
+         <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
          <zIndex>2</zIndex>
       </video>
    </view>
 
    <view ifSubset="gamelist-view-style:metadata-off|metadata-off-immersive" name="detailed">
       <image name="md_image">
-         <pos>0.75 0.3</pos><!-- 480 240 -->
-         <size ifSubset="gamelist-view-style:metadata-off">0.5 0</size><!-- 260 430 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-off-immersive">1.5 1.5</maxSize>
+         <pos>0.75 0.35</pos><!-- 480 155 -->
+         <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
+         <zIndex>2</zIndex>
       </image>
    </view>
-   <view ifSubset="gamelist-view-style:metadata-off|metadata-off-immersive" name="video">
-      <image ifSubset="gamelist-view-style:metadata-off-immersive" name="md_marquee">
-         <pos>0.975 0.425</pos><!-- 480 240 -->
-         <maxSize>0.45 0.9</maxSize><!-- 230 430 -->
-      </image>
+   <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="video">
       <video name="md_video">
-         <pos>0.75 0.3</pos><!-- 480 240 -->
-         <size ifSubset="gamelist-view-style:metadata-off">0.5 0</size><!-- 260 430 -->
-         <maxSize ifSubset="gamelist-view-style:metadata-off-immersive">1.5 1.5</maxSize>
+         <pos>0.75 0.35</pos><!-- 480 155 -->
+         <maxSize>0.5 0.7</maxSize><!-- 480 480 -->
+         <zIndex>2</zIndex>
       </video>
    </view>
 </theme>
