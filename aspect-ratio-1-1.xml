@@ -166,7 +166,7 @@
    <view ifSubset="gamelist-view-style:metadata-on|metadata-on-immersive" name="video">
       <video name="md_video">
          <pos>0.75 0.3</pos><!-- 480 155 -->
-         <size ifSubset="gamelist-view-style:metadata-on">0.5 0.68</size><!-- 260 250 -->
+         <size ifSubset="gamelist-view-style:metadata-on">0.5 0</size><!-- 260 250 -->
          <maxSize ifSubset="gamelist-view-style:metadata-on-immersive">1 1</maxSize><!-- 480 480 -->
          <zIndex>2</zIndex>
       </video>
@@ -186,7 +186,7 @@
       </image>
       <video name="md_video">
          <pos>0.75 0.3</pos><!-- 480 240 -->
-         <size ifSubset="gamelist-view-style:metadata-off">0.5 0.68</size><!-- 260 430 -->
+         <size ifSubset="gamelist-view-style:metadata-off">0.5 0</size><!-- 260 430 -->
          <maxSize ifSubset="gamelist-view-style:metadata-off-immersive">1.5 1.5</maxSize>
       </video>
    </view>
