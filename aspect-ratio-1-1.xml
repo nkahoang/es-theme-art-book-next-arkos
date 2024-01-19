@@ -54,7 +54,7 @@
          <maxSize>0.7 0.5</maxSize>
          <zIndex>50</zIndex>
          <color>${systemLogoColor}</color>
-         <path>./_inc/systems/_default.png</path>
+         <path>./_inc/systems/${system.theme}_logo.png</path>
          <path>./_inc/systems/${system.theme}.svg</path>
       </image>
       <text name="systemInfo">
