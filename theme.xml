@@ -27,16 +27,16 @@ license:       creative commons CC-BY-NC-SA
    </subset>
 
    <!-- Color Scheme -->
-   <subset name="color-scheme" displayName="Color Scheme">
-      <include name="art-book-next" displayName="Art Book Next" />
-      <include name="art-book" displayName="Art Book" />
-      <include name="steam-os" displayName="Steam OS" />
-      <include name="snes" displayName="SNES" />
-      <include name="famicom" displayName="Famicom" />
-      <include name="black" displayName="Black" />
-      <include name="grayscale" displayName="Grayscale" />
-   </subset>
    <include>./colors.xml</include>
+   <subset name="color-scheme" displayName="Color Scheme">
+      <include name="art-book-next" displayName="Art Book Next">./_inc/colors/art-book-next.xml</include>
+      <include name="art-book" displayName="Art Book">./_inc/colors/art-book.xml</include>
+      <include name="steam-os" displayName="Steam OS">./_inc/colors/steam-os.xml</include>
+      <include name="snes" displayName="SNES">./_inc/colors/snes.xml</include>
+      <include name="famicom" displayName="Famicom">./_inc/colors/famicom.xml</include>
+      <include name="black" displayName="Black">./_inc/colors/black.xml</include>
+      <include name="grayscale" displayName="Grayscale">./_inc/colors/grayscale.xml</include>
+   </subset>
 
    <!-- Fonts -->
    <subset name="fonts" displayName="Font Size">
@@ -187,7 +187,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>111111</color>
+         <color>${gamelistListTextlistBackgroundColor}</color>
          <zIndex>4</zIndex>
       </image>
       <image name="background" extra="true">
@@ -270,7 +270,7 @@ license:       creative commons CC-BY-NC-SA
          <origin>0 0</origin>
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>888888</color>
+         <color>${gamelistListMetadataBackgroundColor}</color>
          <zIndex>2</zIndex>
       </image>
    </view>
@@ -334,7 +334,7 @@ license:       creative commons CC-BY-NC-SA
          <active>./_inc/images/menu-textinput-active.png</active>
       </menuTextEdit>
       <menuBackground name="menubg">
-         <color>111111</color>
+         <color>${menuBackgroundColor}</color>
          <size>1 1</size>
          <cornerSize>20 20</cornerSize>
       </menuBackground>

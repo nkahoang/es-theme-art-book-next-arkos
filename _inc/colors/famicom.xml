@@ -1,0 +1,32 @@
+<theme>
+    <formatVersion>7</formatVersion>
+    <variables>
+        <backgroundColor>000000</backgroundColor>
+        <!-- System View -->
+        <systemBackgroundColor>711521</systemBackgroundColor>
+        <systemCarouselBackgroundColor>2f1619</systemCarouselBackgroundColor>
+        <systemArtColor>DCD6B6</systemArtColor>
+        <systemArtSaturation>0.5</systemArtSaturation>
+        <systemArtFade>00000044</systemArtFade>
+        <systemMaskColor>711521</systemMaskColor>
+        <systemLogoColor>DCD6B6</systemLogoColor>
+        <!-- Gamelist View - List Variants -->
+        <gamelistListTextlistBackgroundColor>711521</gamelistListTextlistBackgroundColor>
+        <gamelistListLogoColor>DCD6B6</gamelistListLogoColor>
+        <gamelistListTextlistSelectedColor>DCD6B6</gamelistListTextlistSelectedColor>
+        <gamelistListTextlistUnselectedColor>ffffff33</gamelistListTextlistUnselectedColor>
+        <gamelistListMetadataBackgroundColor>DCD6B6</gamelistListMetadataBackgroundColor>
+        <gamelistListMetadataColor>000000aa</gamelistListMetadataColor>
+        <gamelistListMetadataIconColor>711521</gamelistListMetadataIconColor>
+        <gamelistListDescriptionColor>000000dd</gamelistListDescriptionColor>
+        <gamelistListRatingColor>711521</gamelistListRatingColor>
+        <!-- Help System -->
+        <helpBackgroundColor>000000</helpBackgroundColor>
+        <helpIconColor>ffffff66</helpIconColor>
+        <helpTextColor>ffffff66</helpTextColor>
+        <!-- Menu System -->
+        <menuBackgroundColor>711521</menuBackgroundColor>
+        <statusBarBackgroundColor>711521</statusBarBackgroundColor>
+        <statusBarIconColor>DCD6B6</statusBarIconColor>
+     </variables>
+</theme>
