@@ -290,8 +290,6 @@ license:       creative commons CC-BY-NC-SA
          <effect>none</effect>
          <showSnapshotDelay>true</showSnapshotDelay>
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <color ifSubset="gamelist-view-style:metadata-on-immersive">FFFFFFDD</color>
-         <color ifSubset="gamelist-view-style:metadata-off-immersive">FFFFFF99</color>
          <zIndex>3</zIndex>
          <loops ifSubset="gamelist-loop-video:off">0</loops>
          <loops ifSubset="gamelist-loop-video:on">-1</loops>
